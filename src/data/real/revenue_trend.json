@@ -1,74 +1,74 @@
 [
   {
     "month": "Jan",
-    "revenue": 1289491.27,
-    "orders": 9153,
-    "prev_year": 1195541.8
+    "revenue": 1070343.23,
+    "orders": 8009,
+    "prev_year": 120312.87
   },
   {
-    "month": "F\u00e9v",
-    "revenue": 987018.11,
-    "orders": 7006,
-    "prev_year": 855503.51
+    "month": "Fév",
+    "revenue": 1091481.73,
+    "orders": 8427,
+    "prev_year": 247303.02
   },
   {
     "month": "Mar",
-    "revenue": 1232531.06,
-    "orders": 8748,
-    "prev_year": 1127368.15
+    "revenue": 1357557.74,
+    "orders": 9829,
+    "prev_year": 374344.3
   },
   {
     "month": "Avr",
-    "revenue": 1233356.69,
-    "orders": 8754,
-    "prev_year": 1111762.59
+    "revenue": 1356574.98,
+    "orders": 9325,
+    "prev_year": 359927.23
   },
   {
     "month": "Mai",
-    "revenue": 1166697.47,
-    "orders": 8281,
-    "prev_year": 1042373.69
+    "revenue": 1502588.82,
+    "orders": 10513,
+    "prev_year": 506071.14
   },
   {
     "month": "Juin",
-    "revenue": 1335421.22,
-    "orders": 9479,
-    "prev_year": 1157275.77
+    "revenue": 1298162.91,
+    "orders": 9377,
+    "prev_year": 433038.6
   },
   {
     "month": "Juil",
-    "revenue": 1129993.06,
-    "orders": 8021,
-    "prev_year": 1062977.53
+    "revenue": 1393538.7,
+    "orders": 10242,
+    "prev_year": 498031.48
   },
   {
-    "month": "Ao\u00fbt",
-    "revenue": 1279876.44,
-    "orders": 9084,
-    "prev_year": 1111369.13
+    "month": "Août",
+    "revenue": 1428658.01,
+    "orders": 10745,
+    "prev_year": 573971.68
   },
   {
     "month": "Sep",
-    "revenue": 993994.87,
-    "orders": 7055,
-    "prev_year": 926063.02
+    "revenue": 624814.05,
+    "orders": 4247,
+    "prev_year": 267.36
   },
   {
     "month": "Oct",
-    "revenue": 1171947.69,
-    "orders": 8318,
-    "prev_year": 1050266.8
+    "revenue": 713727.09,
+    "orders": 4876,
+    "prev_year": 49507.66
   },
   {
     "month": "Nov",
-    "revenue": 1171735.42,
-    "orders": 8317,
-    "prev_year": 1061786.78
+    "revenue": 1010271.37,
+    "orders": 7451,
+    "prev_year": 1010271.37
   },
   {
-    "month": "D\u00e9c",
-    "revenue": 1031276.25,
-    "orders": 7320,
-    "prev_year": 945048.26
+    "month": "Déc",
+    "revenue": 743925.07,
+    "orders": 5625,
+    "prev_year": 10.9
   }
 ]

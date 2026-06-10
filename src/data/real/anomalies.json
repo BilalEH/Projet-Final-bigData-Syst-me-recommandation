@@ -11,16 +11,6 @@
   },
   {
     "id": "A-002",
-    "type": "Baisse performance ML",
-    "severity": "medium",
-    "title": "Baisse de précision du modèle Random Forest",
-    "description": "Le F1-score du modèle est passé de 0.83 à 0.71. Dérive des données détectée. Un ré-entraînement est recommandé.",
-    "date": "2026-05-27",
-    "impact": "Qualité des recommandations réduite",
-    "source": "ML Pipeline"
-  },
-  {
-    "id": "A-003",
     "type": "Produit anormal",
     "severity": "high",
     "title": "Produit avec taux de ré-achat anormal (98%)",
@@ -30,7 +20,7 @@
     "source": "Système de Détection"
   },
   {
-    "id": "A-004",
+    "id": "A-003",
     "type": "Nouveau pattern d'achat",
     "severity": "low",
     "title": "Émergence d'un nouveau cluster d'achats",
@@ -40,7 +30,7 @@
     "source": "Algorithmes de Clustering"
   },
   {
-    "id": "A-005",
+    "id": "A-004",
     "type": "Panier abandonné",
     "severity": "medium",
     "title": "Taux d'abandon de panier élevé (72%)",
@@ -50,7 +40,7 @@
     "source": "Analyse des Paniers"
   },
   {
-    "id": "A-006",
+    "id": "A-005",
     "type": "Fraude potentielle",
     "severity": "high",
     "title": "Tentative de fraude détectée - Multi-comptes",

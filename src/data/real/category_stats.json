@@ -1,50 +1,58 @@
 [
   {
+    "name": "Fruits & Légumes",
+    "products": 1642,
+    "orders": 9334709,
+    "percentage": 28.8,
+    "growth": 65.2
+  },
+  {
+    "name": "Animaux",
+    "products": 3278,
+    "orders": 5272242,
+    "percentage": 16.3,
+    "growth": 66.9
+  },
+  {
+    "name": "Spécialités",
+    "products": 5858,
+    "orders": 2776635,
+    "percentage": 8.6,
+    "growth": 57.4
+  },
+  {
+    "name": "Épicerie",
+    "products": 4126,
+    "orders": 2610047,
+    "percentage": 8,
+    "growth": 65.4
+  },
+  {
     "name": "Produce",
-    "revenue": 167982601.28,
-    "products": 1684,
-    "orders": 7162,
-    "percentage": 31.8,
-    "growth": 19.5
+    "products": 3771,
+    "orders": 2170237,
+    "percentage": 6.7,
+    "growth": 54.3
   },
   {
-    "name": "Pet Supplies",
-    "revenue": 101768301.06,
-    "products": 3448,
-    "orders": 3323,
-    "percentage": 19.3,
-    "growth": 13.1
+    "name": "Ménage",
+    "products": 5039,
+    "orders": 1824836,
+    "percentage": 5.6,
+    "growth": 34.7
   },
   {
-    "name": "Pantry",
-    "revenue": 48947116.54,
-    "products": 4363,
-    "orders": 7329,
-    "percentage": 9.3,
-    "growth": 16.7
+    "name": "Boulangerie",
+    "products": 1478,
+    "orders": 1140292,
+    "percentage": 3.5,
+    "growth": 62.8
   },
   {
-    "name": "Specialty",
-    "revenue": 44925954.31,
-    "products": 6263,
-    "orders": 7819,
-    "percentage": 8.5,
-    "growth": 15.1
-  },
-  {
-    "name": "Frozen",
-    "revenue": 32106863.17,
-    "products": 4007,
-    "orders": 5918,
-    "percentage": 6.1,
-    "growth": 18.7
-  },
-  {
-    "name": "Bakery",
-    "revenue": 20970919.09,
-    "products": 1516,
-    "orders": 1368,
-    "percentage": 4.0,
-    "growth": 19.8
+    "name": "Bébé",
+    "products": 1965,
+    "orders": 1034182,
+    "percentage": 3.2,
+    "growth": 45.8
   }
 ]

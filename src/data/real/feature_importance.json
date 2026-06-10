@@ -9,10 +9,10 @@
   },
   {
     "feature": "nombre_associations_produit",
-    "importance": 0.0
+    "importance": 0
   },
   {
     "feature": "frequence_paires",
-    "importance": 0.0
+    "importance": 0
   }
 ]

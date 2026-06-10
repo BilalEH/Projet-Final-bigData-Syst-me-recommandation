@@ -1,152 +1,152 @@
 [
   {
-    "product_a": "Bag of Organic Bananas",
-    "product_b": "Organic Hass Avocado",
-    "count": 63
+    "product_a": "Product 422879e1",
+    "product_b": "Product 422879e1",
+    "count": 279
   },
   {
-    "product_a": "Banana",
-    "product_b": "Organic Avocado",
-    "count": 62
+    "product_a": "Product ee3d532c",
+    "product_b": "Product ee3d532c",
+    "count": 195
   },
   {
-    "product_a": "Organic Strawberries",
-    "product_b": "Banana",
+    "product_a": "Product 95717594",
+    "product_b": "Product 95717594",
+    "count": 190
+  },
+  {
+    "product_a": "Product a62e25e0",
+    "product_b": "Product a62e25e0",
+    "count": 141
+  },
+  {
+    "product_a": "Product 368c6c73",
+    "product_b": "Product 368c6c73",
+    "count": 139
+  },
+  {
+    "product_a": "Product b532349f",
+    "product_b": "Product b532349f",
+    "count": 133
+  },
+  {
+    "product_a": "Product d5991653",
+    "product_b": "Product d5991653",
+    "count": 123
+  },
+  {
+    "product_a": "Product 53759a2e",
+    "product_b": "Product 53759a2e",
+    "count": 119
+  },
+  {
+    "product_a": "Product 89b190a0",
+    "product_b": "Product 89b190a0",
+    "count": 115
+  },
+  {
+    "product_a": "Product aca2eb7d",
+    "product_b": "Product aca2eb7d",
+    "count": 110
+  },
+  {
+    "product_a": "Product 389d119b",
+    "product_b": "Product 389d119b",
+    "count": 108
+  },
+  {
+    "product_a": "Product 37eb69ac",
+    "product_b": "Product 37eb69ac",
+    "count": 105
+  },
+  {
+    "product_a": "Product 05b515fd",
+    "product_b": "Product 270516a3",
+    "count": 100
+  },
+  {
+    "product_a": "Product d34c07a2",
+    "product_b": "Product d34c07a2",
+    "count": 98
+  },
+  {
+    "product_a": "Product 44a5d24d",
+    "product_b": "Product 44a5d24d",
+    "count": 91
+  },
+  {
+    "product_a": "Product 9ecadb84",
+    "product_b": "Product 9ecadb84",
+    "count": 89
+  },
+  {
+    "product_a": "Product eb8c629f",
+    "product_b": "Product eb8c629f",
+    "count": 75
+  },
+  {
+    "product_a": "Product 32e18e89",
+    "product_b": "Product 32e18e89",
+    "count": 72
+  },
+  {
+    "product_a": "Product e7cc48a9",
+    "product_b": "Product e7cc48a9",
+    "count": 69
+  },
+  {
+    "product_a": "Product 928e52a9",
+    "product_b": "Product 928e52a9",
+    "count": 67
+  },
+  {
+    "product_a": "Product 03e1c946",
+    "product_b": "Product 03e1c946",
+    "count": 66
+  },
+  {
+    "product_a": "Product b114bf33",
+    "product_b": "Product b114bf33",
     "count": 57
   },
   {
-    "product_a": "Bag of Organic Bananas",
-    "product_b": "Organic Strawberries",
-    "count": 54
+    "product_a": "Product d2085f7e",
+    "product_b": "Product d2085f7e",
+    "count": 56
   },
   {
-    "product_a": "Organic Baby Spinach",
-    "product_b": "Banana",
+    "product_a": "Product 36f60d45",
+    "product_b": "Product 36f60d45",
+    "count": 53
+  },
+  {
+    "product_a": "Product c7fd13b5",
+    "product_b": "Product c7fd13b5",
     "count": 51
   },
   {
-    "product_a": "Strawberries",
-    "product_b": "Banana",
-    "count": 44
+    "product_a": "Product 3eef0cb9",
+    "product_b": "Product 3eef0cb9",
+    "count": 51
   },
   {
-    "product_a": "Banana",
-    "product_b": "Large Lemon",
-    "count": 36
+    "product_a": "Product 36f60d45",
+    "product_b": "Product e53e557d",
+    "count": 48
   },
   {
-    "product_a": "Bag of Organic Bananas",
-    "product_b": "Organic Raspberries",
-    "count": 36
+    "product_a": "Product a19b6951",
+    "product_b": "Product a19b6951",
+    "count": 47
   },
   {
-    "product_a": "Banana",
-    "product_b": "Organic Fuji Apple",
-    "count": 35
+    "product_a": "Product a6ad77b1",
+    "product_b": "Product a6ad77b1",
+    "count": 46
   },
   {
-    "product_a": "Banana",
-    "product_b": "Organic Whole Milk",
-    "count": 35
-  },
-  {
-    "product_a": "Bag of Organic Bananas",
-    "product_b": "Organic Baby Spinach",
-    "count": 34
-  },
-  {
-    "product_a": "Banana",
-    "product_b": "Organic Hass Avocado",
-    "count": 34
-  },
-  {
-    "product_a": "Banana",
-    "product_b": "Cucumber Kirby",
-    "count": 34
-  },
-  {
-    "product_a": "Organic Strawberries",
-    "product_b": "Organic Whole Milk",
-    "count": 33
-  },
-  {
-    "product_a": "Banana",
-    "product_b": "Honeycrisp Apple",
-    "count": 33
-  },
-  {
-    "product_a": "Bag of Organic Bananas",
-    "product_b": "Organic Whole Milk",
-    "count": 33
-  },
-  {
-    "product_a": "Organic Strawberries",
-    "product_b": "Organic Raspberries",
-    "count": 32
-  },
-  {
-    "product_a": "Organic Strawberries",
-    "product_b": "Organic Baby Spinach",
-    "count": 31
-  },
-  {
-    "product_a": "Organic Strawberries",
-    "product_b": "Organic Hass Avocado",
-    "count": 31
-  },
-  {
-    "product_a": "Organic Baby Spinach",
-    "product_b": "Organic Hass Avocado",
-    "count": 27
-  },
-  {
-    "product_a": "Banana",
-    "product_b": "Organic Zucchini",
-    "count": 26
-  },
-  {
-    "product_a": "Bag of Organic Bananas",
-    "product_b": "Organic Blueberries",
-    "count": 25
-  },
-  {
-    "product_a": "Banana",
-    "product_b": "Organic Raspberries",
-    "count": 25
-  },
-  {
-    "product_a": "Bag of Organic Bananas",
-    "product_b": "Apple Honeycrisp Organic",
-    "count": 24
-  },
-  {
-    "product_a": "Large Lemon",
-    "product_b": "Organic Avocado",
-    "count": 24
-  },
-  {
-    "product_a": "Organic Baby Spinach",
-    "product_b": "Organic Avocado",
-    "count": 24
-  },
-  {
-    "product_a": "Bag of Organic Bananas",
-    "product_b": "Large Lemon",
-    "count": 23
-  },
-  {
-    "product_a": "Banana",
-    "product_b": "Seedless Red Grapes",
-    "count": 23
-  },
-  {
-    "product_a": "Banana",
-    "product_b": "Limes",
-    "count": 23
-  },
-  {
-    "product_a": "Limes",
-    "product_b": "Large Lemon",
-    "count": 23
+    "product_a": "Product 05b515fd",
+    "product_b": "Product 05b515fd",
+    "count": 45
   }
 ]

@@ -36,7 +36,7 @@ const PAGES = [
   { id: 'products', label: 'Top Produits', icon: BarChart3 },
   { id: 'model', label: 'Modèle ML', icon: Cpu },
   { id: 'baskets', label: 'Paniers', icon: ShoppingBag },
-  { id: 'anomalies', label: 'Sécurité', icon: Shield },
+  { id: 'anomalies', label: 'Anomalies', icon: AlertTriangle },
   { id: 'recommend', label: 'Recommandations', icon: MessageCircle },
 ];
 
@@ -67,7 +67,7 @@ export default function AppLayoutRoot() {
     <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, px: 2.5, minHeight: 64, borderBottom: '1px solid', borderColor: 'divider' }}>
         <Box sx={{ minWidth: 0 }}>
-          <Typography sx={{ fontWeight: 700, fontSize: '1.1rem', color: '#2563eb' }}>Projet Big Data</Typography>
+          <Typography sx={{ fontWeight: 700, fontSize: '1.1rem', color: '#005600' }}>Projet Big Data</Typography>
           <Typography sx={{ fontSize: '0.65rem', color: 'text.secondary', mt: 0.3, whiteSpace: 'nowrap', textOverflow: 'ellipsis', overflow: 'hidden' }}>
             Bilal, Ilyas, Ahmed, Anas
           </Typography>
@@ -83,15 +83,15 @@ export default function AppLayoutRoot() {
           return (
             <ListItemButton key={p.id} selected={active}
               onClick={() => { setPage(p.id); setMobileOpen(false); }}
-              sx={{ borderRadius: 2, mb: 0.2, px: 1.5, py: 1.1, color: active ? '#2563eb' : '#6b7280',
+              sx={{ borderRadius: 2, mb: 0.2, px: 1.5, py: 1.1, color: active ? '#005600' : '#6b7280',
                 '&:hover': { background: 'rgba(255,255,255,0.04)' },
-                '&.Mui-selected': { background: 'rgba(37,99,235,0.1)', '&:hover': { background: 'rgba(37,99,235,0.15)' } } }}>
+                '&.Mui-selected': { background: '#00560016', '&:hover': { background: '#00820048' } } }}>
               <ListItemIcon sx={{ minWidth: 36 }}>
                 {p.id === 'anomalies' ? (
                   <Badge badgeContent={criticalCount} color="error" sx={{ '& .MuiBadge-badge': { fontSize: 9, fontWeight: 700, minWidth: 16, height: 16 } }}>
-                    <Icon size={18} color={active ? '#2563eb' : '#6b7280'} />
+                    <Icon size={18} color={active ? '#005600' : '#6b7280'} />
                   </Badge>
-                ) : <Icon size={18} color={active ? '#2563eb' : '#6b7280'} />}
+                ) : <Icon size={18} color={active ? '#005600' : '#6b7280'} />}
               </ListItemIcon>
               <ListItemText primary={p.label} slotProps={{ primary: { fontSize: '0.82rem', fontWeight: active ? 700 : 500 } }} />
             </ListItemButton>
@@ -123,7 +123,7 @@ export default function AppLayoutRoot() {
           <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2.5 }}>
             <Card>
               <CardContent sx={{ p: 2, display: 'flex', alignItems: 'center', gap: 2, flexWrap: 'wrap' }}>
-                <Lightbulb size={20} color="#2563eb" />
+                <Lightbulb size={20} color="#005600" />
                 <Typography variant="body2" sx={{ fontWeight: 500 }}>Bonjour Manager,</Typography>
                 <Chip icon={<TrendingUp size={14} />} label={`Meilleur produit : ${topProduct?.name || '—'}`} variant="outlined" size="small" sx={{ fontWeight: 600, fontSize: '0.7rem', maxWidth: 300, '& .MuiChip-label': { overflow: 'hidden', textOverflow: 'ellipsis' } }} />
                 {lowStockCount > 0 && <Chip icon={<AlertTriangle size={14} />} label={`${lowStockCount} produits en rupture de stock`} color="warning" size="small" sx={{ fontWeight: 600, fontSize: '0.7rem' }} />}
@@ -142,7 +142,7 @@ export default function AppLayoutRoot() {
             </Box>
             <Box>
               <Typography variant="h5" sx={{ mb: 1.5, display: 'flex', alignItems: 'center', gap: 1 }}>
-                <Activity size={20} color="#2563eb" /> Métriques du Modèle Random Forest
+                <Activity size={20} color="#005600" /> Métriques du Modèle Random Forest
               </Typography>
               <ModelMetricsCard metrics={mlMetrics} />
             </Box>
@@ -180,7 +180,7 @@ export default function AppLayoutRoot() {
         <Card>
           <CardContent sx={{ p: 2.5 }}>
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 2 }}>
-              <Lightbulb size={20} color="#2563eb" />
+              <Lightbulb size={20} color="#005600" />
               <Typography variant="h6">Interprétation pour le Manager</Typography>
             </Box>
             <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr', lg: '1fr 1fr 1fr 1fr' }, gap: 2 }}>
@@ -190,12 +190,12 @@ export default function AppLayoutRoot() {
                 <Typography variant="body2" sx={{ fontSize: '0.7rem', mt: 0.3 }}>Le modèle est fiable dans {((mlMetrics.accuracy * 100)).toFixed(0)}% des cas. Sur {totalTest.toLocaleString('fr-FR')} produits testés, il a correctement classé {((confusionMatrix.true_positives + confusionMatrix.true_negatives)).toLocaleString('fr-FR')}.</Typography>
               </Box>
               <Box sx={{ p: 1.5, borderRadius: 2, background: 'rgba(37,99,235,0.06)', border: '1px solid rgba(37,99,235,0.15)' }}>
-                <Target size={18} color="#2563eb" style={{ marginBottom: 6 }} />
+                <Target size={18} color="#005600" style={{ marginBottom: 6 }} />
                 <Typography sx={{ fontWeight: 600, fontSize: '0.82rem' }}>Pertinence : {(mlMetrics.precision * 100).toFixed(0)}%</Typography>
                 <Typography variant="body2" sx={{ fontSize: '0.7rem', mt: 0.3 }}>Quand le modèle recommande un produit, il a raison {((mlMetrics.precision * 100)).toFixed(0)}% du temps. Faible taux de fausses recommandations ({confusionMatrix.false_positives.toLocaleString('fr-FR')} FP).</Typography>
               </Box>
               <Box sx={{ p: 1.5, borderRadius: 2, background: 'rgba(99,102,241,0.06)', border: '1px solid rgba(99,102,241,0.15)' }}>
-                <Activity size={18} color="#6366f1" style={{ marginBottom: 6 }} />
+                <Activity size={18} color="#005600" style={{ marginBottom: 6 }} />
                 <Typography sx={{ fontWeight: 600, fontSize: '0.82rem' }}>Couverture : {(mlMetrics.recall * 100).toFixed(0)}%</Typography>
                 <Typography variant="body2" sx={{ fontSize: '0.7rem', mt: 0.3 }}>Le modèle détecte {((mlMetrics.recall * 100)).toFixed(0)}% des produits réellement recommandables. {confusionMatrix.false_negatives.toLocaleString('fr-FR')} produits auraient dû être recommandés mais ne l'ont pas été.</Typography>
               </Box>
@@ -255,7 +255,7 @@ export default function AppLayoutRoot() {
         {/* Manager Insight */}
         <Card>
           <CardContent sx={{ p: 2, display: 'flex', alignItems: 'center', gap: 2, flexWrap: 'wrap' }}>
-            <Lightbulb size={18} color="#2563eb" />
+            <Lightbulb size={18} color="#005600" />
             <Typography variant="body2" sx={{ fontWeight: 500 }}>Opportunités de vente croisée</Typography>
             {topPair && <Chip label={`Meilleure paire : ${topPair.product_a} + ${topPair.product_b} (${topPair.count}x)`} variant="outlined" size="small" sx={{ fontWeight: 600, fontSize: '0.7rem', maxWidth: 400, '& .MuiChip-label': { overflow: 'hidden', textOverflow: 'ellipsis' } }} />}
             <Chip label={`${highReorderCount} produits à fort ré-achat (≥70%)`} sx={{ fontWeight: 600, fontSize: '0.7rem', bgcolor: 'rgba(16,185,129,0.1)', color: '#10b981' }} />
@@ -266,9 +266,9 @@ export default function AppLayoutRoot() {
         {/* Transaction KPIs */}
         <Box sx={{ display: 'grid', gridTemplateColumns: { xs: 'repeat(2,1fr)', md: 'repeat(4,1fr)' }, gap: 1.5 }}>
           {[
-            { label: 'Transactions Total', value: totalTx.toLocaleString('fr-FR'), color: '#2563eb', icon: ShoppingBag },
-            { label: 'Livrées', value: (status.delivered || 0).toLocaleString('fr-FR'), color: '#10b981', icon: CheckCircle },
-            { label: 'En cours', value: ((status.shipped || 0) + (status.processing || 0)).toLocaleString('fr-FR'), color: '#6366f1', icon: TrendingUp },
+            { label: 'Transactions Total', value: totalTx.toLocaleString('fr-FR'), color: '#005600', icon: ShoppingBag },
+            { label: 'Livrées', value: (status.delivered || 0).toLocaleString('fr-FR'), color: '#005600', icon: CheckCircle },
+            { label: 'En cours', value: ((status.shipped || 0) + (status.processing || 0)).toLocaleString('fr-FR'), color: '#005600', icon: TrendingUp },
             { label: 'Annulées', value: (status.cancelled || 0).toLocaleString('fr-FR'), color: '#ef4444', icon: TrendingDown },
           ].map((s) => (
             <Box key={s.label} sx={{ p: 1.5, borderRadius: 2, background: 'background.paper', border: '1px solid', borderColor: 'divider', textAlign: 'center' }}>
@@ -288,7 +288,7 @@ export default function AppLayoutRoot() {
         <Card>
           <CardContent sx={{ p: 2.5 }}>
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 2 }}>
-              <Activity size={20} color="#2563eb" />
+              <Activity size={20} color="#005600" />
               <Typography variant="h6">Top Produits par Taux de Ré-achat — Features ML</Typography>
             </Box>
             <Box sx={{ overflowX: 'auto' }}>
@@ -424,7 +424,7 @@ export default function AppLayoutRoot() {
         {sidebar}
       </Drawer>
       <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0, ml: { md: `${DRAWER_WIDTH}px` }, width: { md: `calc(100% - ${DRAWER_WIDTH}px)` } }}>
-        <AppBar position="sticky" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1, width: '100%' , background:"#2563eb" }}>
+        <AppBar position="sticky" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1, width: '100%' , background:"#005600" }}>
           <Toolbar sx={{ gap: 1.5, px: { xs: 1.5, md: 2.5 } }}>
             <IconButton edge="start" sx={{ display: { md: 'none' } }} onClick={() => setMobileOpen(true)}>
               <MenuIcon size={20} />
@@ -443,7 +443,7 @@ export default function AppLayoutRoot() {
                       ...sp,
                       input: { ...sp?.input, startAdornment: <InputAdornment position="start"><Search size={16} /></InputAdornment> },
                     }}
-                    sx={{ '& .MuiOutlinedInput-root': { background: 'rgba(255, 255, 255, 0.7)', borderRadius: 1, fontSize: '0.85rem', '& fieldset': { borderColor: 'transparent' }, '&:hover fieldset': { borderColor: 'rgba(37,99,235,0.3)' }, '&.Mui-focused fieldset': { borderColor: '#2563eb' } } }} />
+                    sx={{ '& .MuiOutlinedInput-root': { background: 'rgba(255, 255, 255, 0.7)', borderRadius: 1, fontSize: '0.85rem', '& fieldset': { borderColor: 'transparent' }, '&:hover fieldset': { borderColor: '#00560091' }, '&.Mui-focused fieldset': { borderColor: '#005600' } } }} />
                 );
               }} />
             <Box sx={{ ml: 'auto', display: 'flex', alignItems: 'center', gap: 0.5}}>
@@ -465,7 +465,7 @@ export default function AppLayoutRoot() {
       <SpeedDial ariaLabel="Actions rapides"
         sx={{ position: 'fixed', bottom: 24, right: 24 }}
         icon={<Upload size={20} />}
-        FabProps={{ size: 'small', sx: { background: 'linear-gradient(135deg, #2563eb, #1d4ed8)', '&:hover': { background: 'linear-gradient(135deg, #1d4ed8, #1e40af)' } } }}>
+        FabProps={{ size: 'small', sx: { background: 'linear-gradient(135deg, #005600, #005600)', '&:hover': { background: 'linear-gradient(135deg, #005600, #005600)' } } }}>
         <SpeedDialAction icon={<Download size={18} />} onClick={handleExport} />
         <SpeedDialAction icon={<RefreshCw size={18} />} onClick={() => showSnack('Données rafraîchies')} />
         <SpeedDialAction icon={<FileText size={18} />} onClick={() => showSnack('Rapport généré', 'info')} />
