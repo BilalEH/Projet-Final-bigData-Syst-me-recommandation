@@ -1,0 +1,12 @@
+[
+  { "product_id": "P001", "total_apparitions": 320, "total_reordered": 230, "taux_reordered": 0.72, "avg_position": 2.1 },
+  { "product_id": "P002", "total_apparitions": 280, "total_reordered": 182, "taux_reordered": 0.65, "avg_position": 1.8 },
+  { "product_id": "P003", "total_apparitions": 310, "total_reordered": 251, "taux_reordered": 0.81, "avg_position": 2.5 },
+  { "product_id": "P004", "total_apparitions": 195, "total_reordered": 113, "taux_reordered": 0.58, "avg_position": 3.2 },
+  { "product_id": "P005", "total_apparitions": 230, "total_reordered": 170, "taux_reordered": 0.74, "avg_position": 4.1 },
+  { "product_id": "P006", "total_apparitions": 145, "total_reordered": 65, "taux_reordered": 0.45, "avg_position": 3.8 },
+  { "product_id": "P007", "total_apparitions": 180, "total_reordered": 94, "taux_reordered": 0.52, "avg_position": 2.9 },
+  { "product_id": "P008", "total_apparitions": 160, "total_reordered": 61, "taux_reordered": 0.38, "avg_position": 5.2 },
+  { "product_id": "P009", "total_apparitions": 210, "total_reordered": 145, "taux_reordered": 0.69, "avg_position": 3.5 },
+  { "product_id": "P010", "total_apparitions": 98, "total_reordered": 28, "taux_reordered": 0.29, "avg_position": 4.8 }
+]

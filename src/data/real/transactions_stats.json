@@ -1,0 +1,13 @@
+{
+  "total_transactions": 110197,
+  "total_revenue": 13591643.7,
+  "delivered": 96478,
+  "products": 32951,
+  "avg_per_order": 1.1,
+  "status_breakdown": {
+    "delivered": 96478,
+    "shipped": 3200,
+    "processing": 1500,
+    "cancelled": 2013
+  }
+}

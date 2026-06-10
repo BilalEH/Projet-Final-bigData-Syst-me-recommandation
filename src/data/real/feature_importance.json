@@ -1,0 +1,18 @@
+[
+  {
+    "feature": "nombre_total_apparitions",
+    "importance": 0.5519
+  },
+  {
+    "feature": "position_moyenne_dans_le_panier",
+    "importance": 0.4481
+  },
+  {
+    "feature": "nombre_associations_produit",
+    "importance": 0.0
+  },
+  {
+    "feature": "frequence_paires",
+    "importance": 0.0
+  }
+]

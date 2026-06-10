@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Produce",
+    "revenue": 167982601.28,
+    "products": 1684,
+    "orders": 7162,
+    "percentage": 31.8,
+    "growth": 19.5
+  },
+  {
+    "name": "Pet Supplies",
+    "revenue": 101768301.06,
+    "products": 3448,
+    "orders": 3323,
+    "percentage": 19.3,
+    "growth": 13.1
+  },
+  {
+    "name": "Pantry",
+    "revenue": 48947116.54,
+    "products": 4363,
+    "orders": 7329,
+    "percentage": 9.3,
+    "growth": 16.7
+  },
+  {
+    "name": "Specialty",
+    "revenue": 44925954.31,
+    "products": 6263,
+    "orders": 7819,
+    "percentage": 8.5,
+    "growth": 15.1
+  },
+  {
+    "name": "Frozen",
+    "revenue": 32106863.17,
+    "products": 4007,
+    "orders": 5918,
+    "percentage": 6.1,
+    "growth": 18.7
+  },
+  {
+    "name": "Bakery",
+    "revenue": 20970919.09,
+    "products": 1516,
+    "orders": 1368,
+    "percentage": 4.0,
+    "growth": 19.8
+  }
+]

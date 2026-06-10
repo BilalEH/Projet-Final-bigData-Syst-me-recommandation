@@ -1,0 +1,10 @@
+[
+  { "product_a": "P001", "product_b": "P009", "count": 42 },
+  { "product_a": "P002", "product_b": "P003", "count": 38 },
+  { "product_a": "P003", "product_b": "P005", "count": 35 },
+  { "product_a": "P001", "product_b": "P003", "count": 31 },
+  { "product_a": "P004", "product_b": "P006", "count": 28 },
+  { "product_a": "P007", "product_b": "P010", "count": 24 },
+  { "product_a": "P002", "product_b": "P005", "count": 22 },
+  { "product_a": "P001", "product_b": "P007", "count": 20 }
+]

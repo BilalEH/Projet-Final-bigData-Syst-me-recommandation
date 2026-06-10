@@ -1,0 +1,152 @@
+[
+  {
+    "product_a": "Bag of Organic Bananas",
+    "product_b": "Organic Hass Avocado",
+    "count": 63
+  },
+  {
+    "product_a": "Banana",
+    "product_b": "Organic Avocado",
+    "count": 62
+  },
+  {
+    "product_a": "Organic Strawberries",
+    "product_b": "Banana",
+    "count": 57
+  },
+  {
+    "product_a": "Bag of Organic Bananas",
+    "product_b": "Organic Strawberries",
+    "count": 54
+  },
+  {
+    "product_a": "Organic Baby Spinach",
+    "product_b": "Banana",
+    "count": 51
+  },
+  {
+    "product_a": "Strawberries",
+    "product_b": "Banana",
+    "count": 44
+  },
+  {
+    "product_a": "Banana",
+    "product_b": "Large Lemon",
+    "count": 36
+  },
+  {
+    "product_a": "Bag of Organic Bananas",
+    "product_b": "Organic Raspberries",
+    "count": 36
+  },
+  {
+    "product_a": "Banana",
+    "product_b": "Organic Fuji Apple",
+    "count": 35
+  },
+  {
+    "product_a": "Banana",
+    "product_b": "Organic Whole Milk",
+    "count": 35
+  },
+  {
+    "product_a": "Bag of Organic Bananas",
+    "product_b": "Organic Baby Spinach",
+    "count": 34
+  },
+  {
+    "product_a": "Banana",
+    "product_b": "Organic Hass Avocado",
+    "count": 34
+  },
+  {
+    "product_a": "Banana",
+    "product_b": "Cucumber Kirby",
+    "count": 34
+  },
+  {
+    "product_a": "Organic Strawberries",
+    "product_b": "Organic Whole Milk",
+    "count": 33
+  },
+  {
+    "product_a": "Banana",
+    "product_b": "Honeycrisp Apple",
+    "count": 33
+  },
+  {
+    "product_a": "Bag of Organic Bananas",
+    "product_b": "Organic Whole Milk",
+    "count": 33
+  },
+  {
+    "product_a": "Organic Strawberries",
+    "product_b": "Organic Raspberries",
+    "count": 32
+  },
+  {
+    "product_a": "Organic Strawberries",
+    "product_b": "Organic Baby Spinach",
+    "count": 31
+  },
+  {
+    "product_a": "Organic Strawberries",
+    "product_b": "Organic Hass Avocado",
+    "count": 31
+  },
+  {
+    "product_a": "Organic Baby Spinach",
+    "product_b": "Organic Hass Avocado",
+    "count": 27
+  },
+  {
+    "product_a": "Banana",
+    "product_b": "Organic Zucchini",
+    "count": 26
+  },
+  {
+    "product_a": "Bag of Organic Bananas",
+    "product_b": "Organic Blueberries",
+    "count": 25
+  },
+  {
+    "product_a": "Banana",
+    "product_b": "Organic Raspberries",
+    "count": 25
+  },
+  {
+    "product_a": "Bag of Organic Bananas",
+    "product_b": "Apple Honeycrisp Organic",
+    "count": 24
+  },
+  {
+    "product_a": "Large Lemon",
+    "product_b": "Organic Avocado",
+    "count": 24
+  },
+  {
+    "product_a": "Organic Baby Spinach",
+    "product_b": "Organic Avocado",
+    "count": 24
+  },
+  {
+    "product_a": "Bag of Organic Bananas",
+    "product_b": "Large Lemon",
+    "count": 23
+  },
+  {
+    "product_a": "Banana",
+    "product_b": "Seedless Red Grapes",
+    "count": 23
+  },
+  {
+    "product_a": "Banana",
+    "product_b": "Limes",
+    "count": 23
+  },
+  {
+    "product_a": "Limes",
+    "product_b": "Large Lemon",
+    "count": 23
+  }
+]

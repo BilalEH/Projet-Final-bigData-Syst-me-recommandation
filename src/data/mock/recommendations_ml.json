@@ -1,0 +1,17 @@
+[
+  { "user_id": "U1092", "product_name": "Souris Sans Fil", "confidence": 0.92, "is_reordered": true, "category": "Accessoires", "price": 25.00 },
+  { "user_id": "U8821", "product_name": "Casque Audio Bluetooth", "confidence": 0.87, "is_reordered": false, "category": "Audio", "price": 45.00 },
+  { "user_id": "U9934", "product_name": "Tapis de souris XXL", "confidence": 0.78, "is_reordered": true, "category": "Accessoires", "price": 12.17 },
+  { "user_id": "U7731", "product_name": "Clavier Mécanique RGB", "confidence": 0.65, "is_reordered": false, "category": "Accessoires", "price": 30.36 },
+  { "user_id": "U4512", "product_name": "Hub USB 4 ports", "confidence": 0.91, "is_reordered": true, "category": "Informatique", "price": 15.24 },
+  { "user_id": "U6743", "product_name": "Lampe LED Bureau", "confidence": 0.73, "is_reordered": false, "category": "Maison & Bureau", "price": 11.88 },
+  { "user_id": "U2187", "product_name": "Disque Dur Externe 1To", "confidence": 0.84, "is_reordered": true, "category": "Informatique", "price": 30.00 },
+  { "user_id": "U3901", "product_name": "Support PC Bureau", "confidence": 0.59, "is_reordered": false, "category": "Maison & Bureau", "price": 16.33 },
+  { "user_id": "U5543", "product_name": "Webcam HD 1080p", "confidence": 0.88, "is_reordered": true, "category": "Informatique", "price": 15.17 },
+  { "user_id": "U6672", "product_name": "Écran PC 24 pouces", "confidence": 0.95, "is_reordered": true, "category": "Informatique", "price": 46.88 },
+  { "user_id": "U1298", "product_name": "Casque Audio 7.1", "confidence": 0.71, "is_reordered": false, "category": "Audio", "price": 21.03 },
+  { "user_id": "U3487", "product_name": "Souris Gamer Pro", "confidence": 0.82, "is_reordered": true, "category": "Accessoires", "price": 20.00 },
+  { "user_id": "U5012", "product_name": "Pack Câbles USB", "confidence": 0.67, "is_reordered": false, "category": "Accessoires", "price": 8.50 },
+  { "user_id": "U8345", "product_name": "Microphone Studio", "confidence": 0.76, "is_reordered": false, "category": "Audio", "price": 55.00 },
+  { "user_id": "U2201", "product_name": "Chaise Gaming", "confidence": 0.93, "is_reordered": true, "category": "Gaming", "price": 180.00 }
+]

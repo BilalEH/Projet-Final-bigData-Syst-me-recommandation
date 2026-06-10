@@ -1,0 +1,16 @@
+{
+  "matrix": [
+    [
+      6004,
+      969
+    ],
+    [
+      1478,
+      1485
+    ]
+  ],
+  "labels": [
+    "Non recommand\u00e9 (0)",
+    "Recommand\u00e9 (1)"
+  ]
+}

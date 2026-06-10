@@ -1,0 +1,8 @@
+{
+  "total_transactions": 5840,
+  "total_revenue": 388000,
+  "delivered": 5520,
+  "products": 156,
+  "avg_per_order": 3.4,
+  "status_breakdown": { "delivered": 5520, "shipped": 180, "processing": 90, "cancelled": 50 }
+}

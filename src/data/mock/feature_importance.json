@@ -1,0 +1,7 @@
+[
+  { "feature": "Taux de ré-achat", "importance": 0.38 },
+  { "feature": "Position dans le panier", "importance": 0.27 },
+  { "feature": "Fréquence des paires", "importance": 0.18 },
+  { "feature": "Nombre d'apparitions", "importance": 0.12 },
+  { "feature": "Catégorie du produit", "importance": 0.05 }
+]

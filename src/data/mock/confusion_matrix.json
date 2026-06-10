@@ -1,0 +1,6 @@
+{
+  "true_positives": 1250,
+  "false_positives": 210,
+  "true_negatives": 3100,
+  "false_negatives": 280
+}

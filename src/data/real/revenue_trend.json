@@ -1,0 +1,74 @@
+[
+  {
+    "month": "Jan",
+    "revenue": 1289491.27,
+    "orders": 9153,
+    "prev_year": 1195541.8
+  },
+  {
+    "month": "F\u00e9v",
+    "revenue": 987018.11,
+    "orders": 7006,
+    "prev_year": 855503.51
+  },
+  {
+    "month": "Mar",
+    "revenue": 1232531.06,
+    "orders": 8748,
+    "prev_year": 1127368.15
+  },
+  {
+    "month": "Avr",
+    "revenue": 1233356.69,
+    "orders": 8754,
+    "prev_year": 1111762.59
+  },
+  {
+    "month": "Mai",
+    "revenue": 1166697.47,
+    "orders": 8281,
+    "prev_year": 1042373.69
+  },
+  {
+    "month": "Juin",
+    "revenue": 1335421.22,
+    "orders": 9479,
+    "prev_year": 1157275.77
+  },
+  {
+    "month": "Juil",
+    "revenue": 1129993.06,
+    "orders": 8021,
+    "prev_year": 1062977.53
+  },
+  {
+    "month": "Ao\u00fbt",
+    "revenue": 1279876.44,
+    "orders": 9084,
+    "prev_year": 1111369.13
+  },
+  {
+    "month": "Sep",
+    "revenue": 993994.87,
+    "orders": 7055,
+    "prev_year": 926063.02
+  },
+  {
+    "month": "Oct",
+    "revenue": 1171947.69,
+    "orders": 8318,
+    "prev_year": 1050266.8
+  },
+  {
+    "month": "Nov",
+    "revenue": 1171735.42,
+    "orders": 8317,
+    "prev_year": 1061786.78
+  },
+  {
+    "month": "D\u00e9c",
+    "revenue": 1031276.25,
+    "orders": 7320,
+    "prev_year": 945048.26
+  }
+]

@@ -1,0 +1,12 @@
+[
+  { "order_id": "ORD-001", "products": ["P001", "P003", "P005"], "total": 79.05 },
+  { "order_id": "ORD-002", "products": ["P002", "P004"], "total": 51.39 },
+  { "order_id": "ORD-003", "products": ["P001", "P002", "P006", "P009"], "total": 107.29 },
+  { "order_id": "ORD-004", "products": ["P007", "P010"], "total": 46.33 },
+  { "order_id": "ORD-005", "products": ["P003", "P005", "P008"], "total": 44.05 },
+  { "order_id": "ORD-006", "products": ["P001", "P009"], "total": 62.12 },
+  { "order_id": "ORD-007", "products": ["P004", "P006", "P007"], "total": 66.20 },
+  { "order_id": "ORD-008", "products": ["P002", "P003", "P005", "P008"], "total": 74.41 },
+  { "order_id": "ORD-009", "products": ["P001", "P007"], "total": 76.88 },
+  { "order_id": "ORD-010", "products": ["P009", "P010"], "total": 31.57 }
+]

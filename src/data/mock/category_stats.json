@@ -1,0 +1,7 @@
+[
+  { "name": "Informatique", "revenue": 135800, "products": 42, "orders": 1870, "percentage": 35, "growth": 14.2 },
+  { "name": "Accessoires", "revenue": 108640, "products": 38, "orders": 1630, "percentage": 28, "growth": 9.8 },
+  { "name": "Audio", "revenue": 69840, "products": 28, "orders": 1050, "percentage": 18, "growth": 7.5 },
+  { "name": "Maison & Bureau", "revenue": 46560, "products": 22, "orders": 820, "percentage": 12, "growth": 5.1 },
+  { "name": "Gaming", "revenue": 27160, "products": 16, "orders": 470, "percentage": 7, "growth": 18.6 }
+]

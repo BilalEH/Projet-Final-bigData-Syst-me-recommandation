@@ -1,0 +1,12 @@
+[
+  { "id": "P001", "name": "Écran PC 24 pouces", "revenue": 15000, "category": "Informatique", "orders": 320, "avg_price": 46.88, "reorder_rate": 0.72, "stock": 45 },
+  { "id": "P002", "name": "Clavier Mécanique RGB", "revenue": 8500, "category": "Accessoires", "orders": 280, "avg_price": 30.36, "reorder_rate": 0.65, "stock": 120 },
+  { "id": "P003", "name": "Souris Gamer Pro", "revenue": 6200, "category": "Accessoires", "orders": 310, "avg_price": 20.00, "reorder_rate": 0.81, "stock": 200 },
+  { "id": "P004", "name": "Casque Audio 7.1", "revenue": 4100, "category": "Audio", "orders": 195, "avg_price": 21.03, "reorder_rate": 0.58, "stock": 78 },
+  { "id": "P005", "name": "Tapis de souris XXL", "revenue": 2800, "category": "Accessoires", "orders": 230, "avg_price": 12.17, "reorder_rate": 0.74, "stock": 340 },
+  { "id": "P006", "name": "Webcam HD 1080p", "revenue": 2200, "category": "Informatique", "orders": 145, "avg_price": 15.17, "reorder_rate": 0.45, "stock": 56 },
+  { "id": "P007", "name": "Disque Dur Externe 1To", "revenue": 5400, "category": "Informatique", "orders": 180, "avg_price": 30.00, "reorder_rate": 0.52, "stock": 34 },
+  { "id": "P008", "name": "Lampe LED Bureau", "revenue": 1900, "category": "Maison & Bureau", "orders": 160, "avg_price": 11.88, "reorder_rate": 0.38, "stock": 89 },
+  { "id": "P009", "name": "Hub USB 4 ports", "revenue": 3200, "category": "Informatique", "orders": 210, "avg_price": 15.24, "reorder_rate": 0.69, "stock": 150 },
+  { "id": "P010", "name": "Support PC Bureau", "revenue": 1600, "category": "Maison & Bureau", "orders": 98, "avg_price": 16.33, "reorder_rate": 0.29, "stock": 25 }
+]

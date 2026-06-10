@@ -1,0 +1,14 @@
+[
+  { "month": "Jan", "revenue": 28000, "orders": 420, "prev_year": 24000 },
+  { "month": "Fév", "revenue": 32000, "orders": 480, "prev_year": 26500 },
+  { "month": "Mar", "revenue": 35000, "orders": 510, "prev_year": 29000 },
+  { "month": "Avr", "revenue": 31000, "orders": 470, "prev_year": 27500 },
+  { "month": "Mai", "revenue": 38800, "orders": 540, "prev_year": 30500 },
+  { "month": "Juin", "revenue": 42000, "orders": 580, "prev_year": 32000 },
+  { "month": "Juil", "revenue": 39500, "orders": 560, "prev_year": 33500 },
+  { "month": "Août", "revenue": 37000, "orders": 530, "prev_year": 31000 },
+  { "month": "Sep", "revenue": 40500, "orders": 575, "prev_year": 34000 },
+  { "month": "Oct", "revenue": 43000, "orders": 600, "prev_year": 35500 },
+  { "month": "Nov", "revenue": 47000, "orders": 630, "prev_year": 38000 },
+  { "month": "Déc", "revenue": 52000, "orders": 690, "prev_year": 41000 }
+]

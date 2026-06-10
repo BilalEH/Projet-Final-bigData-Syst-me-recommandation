@@ -1,0 +1,12 @@
+{
+  "total_revenue": 388000,
+  "total_orders": 5840,
+  "total_products": 156,
+  "active_users": 2340,
+  "avg_order_value": 66.4,
+  "reorder_rate": 0.68,
+  "recommendations_generated": 1840,
+  "avg_confidence": 0.79,
+  "revenue_growth": 12.5,
+  "orders_growth": 8.3
+}
