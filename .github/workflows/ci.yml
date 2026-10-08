@@ -20,9 +20,8 @@ jobs:
           password: ${{ secrets.DOCKER_PS }}
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: .
           push: true
-          # Replace 'my-project' with your actual repository or project name
-          tags: ${{ secrets.DOCKER_USERNAME }}/Projet-Final-bigData-Syst-me-recommandation:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/projet-final-bigdata-syst-me-recommandation:latest
