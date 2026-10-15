@@ -100,7 +100,7 @@ export default function AppLayoutRoot() {
       </List>
       <Box sx={{ borderTop: '1px solid', borderColor: 'divider', px: 2, py: 1.2 }}>
         <Typography sx={{ fontSize: '0.55rem', color: '#6b7280', textAlign: 'center', lineHeight: 1.3 }}>
-          Projet Big Data<br />Bilal · Ilyas · Ahmed · Anas
+          Projet Big Data<br />Bilal
         </Typography>
       </Box>
     </Box>
